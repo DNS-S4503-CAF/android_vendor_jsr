@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += vendor/jsr/d9/bin/rild:system/bin/rild
 PRODUCT_COPY_FILES += vendor/jsr/d9/bin/thermald:system/bin/thermald
 PRODUCT_COPY_FILES += vendor/jsr/d9/bin/wlan_detect:system/bin/wlan_detect
 
-#PRODUCT_COPY_FILES += vendor/jsr/d9/lib/hw/lights.msm7627a.so:system/lib/hw/lights.msm7627a.so
 PRODUCT_COPY_FILES += vendor/jsr/d9/lib/hw/sensors.msm8625_d9.so:system/lib/hw/sensors.msm8625_d9.so
 
 PRODUCT_COPY_FILES += vendor/jsr/d9/lib/libadc.so:system/lib/libadc.so
