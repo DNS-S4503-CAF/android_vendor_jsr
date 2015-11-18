@@ -69,7 +69,7 @@ PRODUCT_COPY_FILES += vendor/jsr/d9/lib/libwmsts.so:system/lib/libwmsts.so
 
 PRODUCT_COPY_FILES += vendor/jsr/d9/wifi/ath6k/athtcmd_ram.bin:system/wifi/ath6k/athtcmd_ram.bin
 PRODUCT_COPY_FILES += vendor/jsr/d9/wifi/ath6k/athwlan.bin:system/wifi/ath6k/athwlan.bin
-PRODUCT_COPY_FILES += vendor/jsr/d9/wifi/ath6k/bdata.bin:system/wifi/ath6k/bdata.bin
+PRODUCT_COPY_FILES += vendor/jsr/d9/wifi/ath6k/caldata.bin:system/wifi/ath6k/caldata.bin
 PRODUCT_COPY_FILES += vendor/jsr/d9/wifi/ath6k/fw-4.bin:system/wifi/ath6k/fw-4.bin
 PRODUCT_COPY_FILES += vendor/jsr/d9/wifi/ath6k/nullTestFlow.bin:system/wifi/ath6k/nullTestFlow.bin
 PRODUCT_COPY_FILES += vendor/jsr/d9/wifi/ath6k/softmac:system/wifi/ath6k/softmac
