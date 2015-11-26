@@ -22,7 +22,7 @@ PRODUCT_COPY_FILES += vendor/jsr/d9/bin/netmgrd:system/bin/netmgrd
 PRODUCT_COPY_FILES += vendor/jsr/d9/bin/oem_rpc_svc:system/bin/oem_rpc_svc
 PRODUCT_COPY_FILES += vendor/jsr/d9/bin/qmiproxy:system/bin/qmiproxy
 PRODUCT_COPY_FILES += vendor/jsr/d9/bin/qmuxd:system/bin/qmuxd
-PRODUCT_COPY_FILES += vendor/jsr/d9/bin/rild:system/bin/rild
+#PRODUCT_COPY_FILES += vendor/jsr/d9/bin/rild:system/bin/rild
 PRODUCT_COPY_FILES += vendor/jsr/d9/bin/thermald:system/bin/thermald
 PRODUCT_COPY_FILES += vendor/jsr/d9/bin/wlan_detect:system/bin/wlan_detect
 
@@ -56,12 +56,12 @@ PRODUCT_COPY_FILES += vendor/jsr/d9/lib/libqmi_client_qmux.so:system/lib/libqmi_
 PRODUCT_COPY_FILES += vendor/jsr/d9/lib/libqmi_csvt_srvc.so:system/lib/libqmi_csvt_srvc.so
 PRODUCT_COPY_FILES += vendor/jsr/d9/lib/libqmiservices.so:system/lib/libqmiservices.so
 PRODUCT_COPY_FILES += vendor/jsr/d9/lib/libqmi.so:system/lib/libqmi.so
-PRODUCT_COPY_FILES += vendor/jsr/d9/lib/libreference-ril.so:system/lib/libreference-ril.so
+#PRODUCT_COPY_FILES += vendor/jsr/d9/lib/libreference-ril.so:system/lib/libreference-ril.so
 
 PRODUCT_COPY_FILES += vendor/jsr/d9/lib/libril-qc-1.so:system/lib/libril-qc-1.so
 PRODUCT_COPY_FILES += vendor/jsr/d9/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so
 PRODUCT_COPY_FILES += vendor/jsr/d9/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so
-PRODUCT_COPY_FILES += vendor/jsr/d9/lib/libril.so:system/lib/libril.so
+#PRODUCT_COPY_FILES += vendor/jsr/d9/lib/libril.so:system/lib/libril.so
 
 PRODUCT_COPY_FILES += vendor/jsr/d9/lib/libuim.so:system/lib/libuim.so
 PRODUCT_COPY_FILES += vendor/jsr/d9/lib/libwms.so:system/lib/libwms.so
