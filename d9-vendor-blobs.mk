@@ -26,7 +26,12 @@ PRODUCT_COPY_FILES += vendor/jsr/d9/bin/qmuxd:system/bin/qmuxd
 PRODUCT_COPY_FILES += vendor/jsr/d9/bin/thermald:system/bin/thermald
 PRODUCT_COPY_FILES += vendor/jsr/d9/bin/wlan_detect:system/bin/wlan_detect
 
-PRODUCT_COPY_FILES += vendor/jsr/d9/lib/hw/sensors.msm8625_d9.so:system/lib/hw/sensors.msm8625_d9.so
+PRODUCT_COPY_FILES += vendor/jsr/d9/bin/geomagneticd:system/bin/geomagneticd
+PRODUCT_COPY_FILES += vendor/jsr/d9/bin/orientationd:system/bin/orientationd
+PRODUCT_COPY_FILES += vendor/jsr/d9/bin/sensord:system/bin/sensord
+
+#PRODUCT_COPY_FILES += vendor/jsr/d9/lib/hw/sensors.msm8625_d9.so:system/lib/hw/sensors.msm8625_d9.so
+PRODUCT_COPY_FILES += vendor/jsr/d9/lib/hw/sensors.msm7x27a.so:system/lib/hw/sensors.msm7x27a.so
 
 PRODUCT_COPY_FILES += vendor/jsr/d9/lib/libadc.so:system/lib/libadc.so
 PRODUCT_COPY_FILES += vendor/jsr/d9/lib/libauth.so:system/lib/libauth.so
