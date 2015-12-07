@@ -148,6 +148,7 @@ PRODUCT_COPY_FILES += vendor/jsr/common/lib/liboemcamera.so:system/lib/liboemcam
 PRODUCT_COPY_FILES += vendor/jsr/common/lib/liboeminfodata.so:system/lib/liboeminfodata.so
 PRODUCT_COPY_FILES += vendor/jsr/common/lib/liboeminfo.so:system/lib/liboeminfo.so
 PRODUCT_COPY_FILES += vendor/jsr/common/lib/liboem_rapi.so:system/lib/liboem_rapi.so
+
 PRODUCT_COPY_FILES += vendor/jsr/common/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so
 PRODUCT_COPY_FILES += vendor/jsr/common/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so
 PRODUCT_COPY_FILES += vendor/jsr/common/lib/libOmxAc3HwDec.so:system/lib/libOmxAc3HwDec.so
@@ -173,6 +174,7 @@ PRODUCT_COPY_FILES += vendor/jsr/common/lib/libOmxVidEnc.so:system/lib/libOmxVid
 PRODUCT_COPY_FILES += vendor/jsr/common/lib/libOmxVp8Dec.so:system/lib/libOmxVp8Dec.so
 PRODUCT_COPY_FILES += vendor/jsr/common/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so
 PRODUCT_COPY_FILES += vendor/jsr/common/lib/libOmxWmvDec.so:system/lib/libOmxWmvDec.so
+
 PRODUCT_COPY_FILES += vendor/jsr/common/lib/libqc-opt.so:system/lib/libqc-opt.so
 PRODUCT_COPY_FILES += vendor/jsr/common/lib/libqueue.so:system/lib/libqueue.so
 PRODUCT_COPY_FILES += vendor/jsr/common/lib/libvoem_if.so:system/lib/libvoem_if.so
