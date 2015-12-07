@@ -87,8 +87,8 @@ PRODUCT_COPY_FILES += vendor/jsr/common/lib/libchromatix_ov7695_raw_default_vide
 
 PRODUCT_COPY_FILES += vendor/jsr/common/lib/libchromatix_ov8825_default_video.so:system/lib/libchromatix_ov8825_default_video.so
 PRODUCT_COPY_FILES += vendor/jsr/common/lib/libchromatix_ov8825_preview.so:system/lib/libchromatix_ov8825_preview.so
-PRODUCT_COPY_FILES += vendor/jsr/common/lib/libchromatix_ov8825_truly_cm8313_default_video.so:system/lib/libchromatix_ov8825_truly_cm8313_default_video.so
-PRODUCT_COPY_FILES += vendor/jsr/common/lib/libchromatix_ov8825_truly_cm8313_preview.so:system/lib/libchromatix_ov8825_truly_cm8313_preview.so
+PRODUCT_COPY_FILES += vendor/jsr/common/lib/libchromatix_ov8825_truly_cm8313_default_video.so:system/lib/libchromatix_ov8825_truly_default_video.so
+PRODUCT_COPY_FILES += vendor/jsr/common/lib/libchromatix_ov8825_truly_cm8313_preview.so:system/lib/libchromatix_ov8825_truly_preview.so
 
 PRODUCT_COPY_FILES += vendor/jsr/common/lib/libchromatix_ov9726_default_video.so:system/lib/libchromatix_ov9726_default_video.so
 PRODUCT_COPY_FILES += vendor/jsr/common/lib/libchromatix_ov9726_preview.so:system/lib/libchromatix_ov9726_preview.so
