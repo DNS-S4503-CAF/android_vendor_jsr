@@ -45,7 +45,7 @@ PRODUCT_COPY_FILES += vendor/jsr/common/lib/libaudioalsa.so:system/lib/libaudioa
 PRODUCT_COPY_FILES += vendor/jsr/common/lib/libaudioeq.so:system/lib/libaudioeq.so
 
 PRODUCT_COPY_FILES += vendor/jsr/common/lib/libchromatix_gc0339_default_video.so:system/lib/libchromatix_gc0339_default_video.so
-PRODUCT_COPY_FILES += vendor/jsr/common/lib/libchromatix_gc0339_preview.so:system/lib/libchromatix_hi542_preview.so
+PRODUCT_COPY_FILES += vendor/jsr/common/lib/libchromatix_gc0339_preview.so:system/lib/libchromatix_gc0339_preview.so
 
 PRODUCT_COPY_FILES += vendor/jsr/common/lib/libchromatix_imx074_default_video.so:system/lib/libchromatix_imx074_default_video.so
 PRODUCT_COPY_FILES += vendor/jsr/common/lib/libchromatix_imx074_preview.so:system/lib/libchromatix_imx074_preview.so
