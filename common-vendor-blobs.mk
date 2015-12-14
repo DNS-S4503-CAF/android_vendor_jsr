@@ -108,7 +108,7 @@ PRODUCT_COPY_FILES += vendor/jsr/common/lib/libcommondefs.so:system/lib/libcommo
 PRODUCT_COPY_FILES += vendor/jsr/common/lib/libdiag.so:system/lib/libdiag.so
 PRODUCT_COPY_FILES += vendor/jsr/common/lib/libdivxdrmdecrypt.so:obj/lib/libdivxdrmdecrypt.so
 PRODUCT_COPY_FILES += vendor/jsr/common/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so
-#PRODUCT_COPY_FILES += vendor/jsr/common/lib/libDivxDrm.so:system/lib/libDivxDrm.so
+PRODUCT_COPY_FILES += vendor/jsr/common/lib/libDivxDrm.so:system/lib/libDivxDrm.so
 #PRODUCT_COPY_FILES += vendor/jsr/common/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so
 PRODUCT_COPY_FILES += vendor/jsr/common/lib/libgemini.so:system/lib/libgemini.so
 PRODUCT_COPY_FILES += vendor/jsr/common/lib/libgesture_client.so:system/lib/libgesture_client.so
@@ -137,7 +137,7 @@ PRODUCT_COPY_FILES += vendor/jsr/common/lib/libmmcamera_wavelet_lib.so:system/li
 
 PRODUCT_COPY_FILES += vendor/jsr/common/lib/libmmipl.so:system/lib/libmmipl.so
 PRODUCT_COPY_FILES += vendor/jsr/common/lib/libmmjpeg.so:system/lib/libmmjpeg.so
-#PRODUCT_COPY_FILES += vendor/jsr/common/lib/libmmosal.so:system/lib/libmmosal.so
+PRODUCT_COPY_FILES += vendor/jsr/common/lib/libmmosal.so:system/lib/libmmosal.so
 #PRODUCT_COPY_FILES += vendor/jsr/common/lib/libmmparser.so:system/lib/libmmparser.so
 PRODUCT_COPY_FILES += vendor/jsr/common/lib/libmmstillomx.so:system/lib/libmmstillomx.so
 PRODUCT_COPY_FILES += vendor/jsr/common/lib/libnetmgr.so:system/lib/libnetmgr.so
