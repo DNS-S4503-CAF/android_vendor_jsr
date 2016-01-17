@@ -14,7 +14,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter d9 msm8625_d9,$(TARGET_DEVICE)),)
+#ifneq ($(filter d9 msm8625_d9,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libnv
@@ -28,7 +28,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := liboncrpc
 LOCAL_MODULE_OWNER := jsr
-LOCAL_SRC_FILES := d9/lib/$(LOCAL_MODULE).so
+LOCAL_SRC_FILES := i6/lib/$(LOCAL_MODULE).so
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -43,5 +43,5 @@ LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 include $(BUILD_PREBUILT)
 
-endif
+#endif
 

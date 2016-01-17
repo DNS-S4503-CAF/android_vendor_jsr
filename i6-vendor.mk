@@ -14,4 +14,4 @@
 # limitations under the License.
 #
 
-$(call inherit-product, vendor/jsr/d9-vendor-blobs.mk)
+$(call inherit-product, vendor/jsr/i6-vendor-blobs.mk)
